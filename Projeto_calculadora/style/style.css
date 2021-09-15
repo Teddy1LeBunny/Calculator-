@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: darkblue;
+    background-color: rgb(236, 236, 236);
+}
+ h1{ 
+     font-size: 50px;
+ }
+fieldset {
+    display:inline-block;
+    justify-content: space-evenly;
+    background-color: honeydew;
+    border:solid indigo;
+    border-radius: 10px;
+}
+
+.notas { 
+    display: flexbox;
+    width: 20%;
+    height: 40%;
+}
+
+.math {
+    display: flexbox;
+    width: 20%;
+    height: 20%;
+}
+
+.totalFinal {
+    width: 67%;
+}
+
+#legendaNotas{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#legendaNotaFinal{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul{
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    width: 40%;
+    height: 40%;
+    padding: 10px 10px 10px 10px;
+}
+
+input { 
+    width: 50px;
+    height: 50px;
+    border: double olivedrab;
+    border-radius: 5px;
+}
+
+.inTotalFinal {
+    width: 100px;
+    height: 50px;
+}

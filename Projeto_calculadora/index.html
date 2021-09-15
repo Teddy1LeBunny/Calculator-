@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> calculadora de notas de faculdade </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Raissa">
+        <meta name="description" content="calculadora feita para calcular notas e seu peso">
+        <meta name="keywords" content="html5, calculadora, notas, faculdade">
+
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+
+        <fieldset class="notas">
+            <legend id="legendaNotas">Notas</legend>
+            <ul>
+                <li>
+                    <label class="inputLabel"> 1ª Nota</label><br>
+                    <input type="text" min="0" maxlength="5" class="nota">
+                </li>
+                <li>
+                    <label class="inputLabel"> 2ª Nota </label><br>
+                    <input type="text" min="0" maxlength="5" class="nota">
+                </li>
+                <li>
+                    <label class="inputLabel"> 3ª Nota </label><br>
+                    <input type="text" min="0" maxlength="5" class="nota">
+                </li>
+                <li>
+                    <label class="inputLabel"> 4ª Nota </label><br>
+                    <input type="text" min="0" maxlength="5" class="nota">
+                </li>
+        </ul>
+        </fieldset>
+        <fieldset class="math">
+            <ul>
+                <li>
+                    <label class="InputPeso">Peso</label><br>
+                    <input type="text" min="0" maxlength="5" class="peso">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset class="math">
+            <ul>
+                <li>
+                    <label class="inputTotal">Total</label><br>
+                    <input type="text" maxlength="5" class="total">
+                </li>
+            </ul>
+        </fieldset> 
+        <br>
+    
+        <fieldset class="notas">
+            <legend id="legendaNotaFinal">Prova final</legend>
+            <ul>
+                <li>
+                    <label class="inputLabel">Nota</label><br>
+                    <input type="text" maxlength="5" class="nota">
+                </li>
+        </ul>
+        </fieldset>
+        <fieldset class="math">
+            <ul>
+                <li>
+                    <label class="InputPeso">Peso</label><br>
+                    <input type="text" maxlength="5" class="peso">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset class="math">
+            <ul>
+                <li>
+                    <label class="inputTotal">Total</label><br>
+                    <input type="text" maxlength="5" class="total">
+                </li>
+            </ul>
+        </fieldset>
+        <br>
+        <fieldset class="totalFinal">
+            <ul>
+                <li>
+                    <label class="inputTotalFinal">Total Final</label><br>
+                    <input type="text" maxlength="5" class="inTotalFinal">
+                </li>
+            </ul>
+        </fieldset>
+    </body>
+</html>
