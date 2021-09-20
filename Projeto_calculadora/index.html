@@ -8,6 +8,7 @@
         <meta name="keywords" content="html5, calculadora, notas, faculdade">
 
         <link rel="stylesheet" href="./style/style.css">
+        <script src="./script/script.js" defer></script>
     </head>
     <body>
         <h1>Calculadora</h1>
@@ -17,19 +18,19 @@
             <ul>
                 <li>
                     <label class="inputLabel"> 1ª Nota</label><br>
-                    <input type="text" min="0" maxlength="5" class="nota">
+                    <input type="text" min="0" maxlength="5" id="not1" class="nota" >
                 </li>
                 <li>
                     <label class="inputLabel"> 2ª Nota </label><br>
-                    <input type="text" min="0" maxlength="5" class="nota">
+                    <input type="text" min="0" maxlength="5" id="not2" class="nota">
                 </li>
                 <li>
                     <label class="inputLabel"> 3ª Nota </label><br>
-                    <input type="text" min="0" maxlength="5" class="nota">
+                    <input type="text" min="0" maxlength="5" id="not3" class="nota">
                 </li>
                 <li>
                     <label class="inputLabel"> 4ª Nota </label><br>
-                    <input type="text" min="0" maxlength="5" class="nota">
+                    <input type="text" min="0" maxlength="5" id="not4" class="nota">
                 </li>
         </ul>
         </fieldset>
@@ -37,7 +38,7 @@
             <ul>
                 <li>
                     <label class="InputPeso">Peso</label><br>
-                    <input type="text" min="0" maxlength="5" class="peso">
+                    <input type="text" min="0" maxlength="5" id="peso" class="peso">
                 </li>
             </ul>
         </fieldset>
@@ -45,7 +46,8 @@
             <ul>
                 <li>
                     <label class="inputTotal">Total</label><br>
-                    <input type="text" maxlength="5" class="total">
+                    <input type="text" maxlength="5" id="resuldadoNotas"  class="total">
+                    <button type="button" onclick="total()">Calcular</button>
                 </li>
             </ul>
         </fieldset> 
@@ -56,7 +58,7 @@
             <ul>
                 <li>
                     <label class="inputLabel">Nota</label><br>
-                    <input type="text" maxlength="5" class="nota">
+                    <input type="text" maxlength="5" id="notaFinal" class="nota">
                 </li>
         </ul>
         </fieldset>
@@ -64,7 +66,7 @@
             <ul>
                 <li>
                     <label class="InputPeso">Peso</label><br>
-                    <input type="text" maxlength="5" class="peso">
+                    <input type="text" maxlength="5" id="pesoFinal" class="peso">
                 </li>
             </ul>
         </fieldset>
@@ -72,7 +74,7 @@
             <ul>
                 <li>
                     <label class="inputTotal">Total</label><br>
-                    <input type="text" maxlength="5" class="total">
+                    <input type="text" maxlength="5" id="resultadoProvaFinal" class="total">
                 </li>
             </ul>
         </fieldset>
@@ -81,9 +83,10 @@
             <ul>
                 <li>
                     <label class="inputTotalFinal">Total Final</label><br>
-                    <input type="text" maxlength="5" class="inTotalFinal">
+                    <input type="text" maxlength="5" id="notaTotalFinal" class="inTotalFinal">
                 </li>
             </ul>
         </fieldset>
     </body>
+    
 </html>

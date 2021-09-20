@@ -59,6 +59,8 @@ input {
     height: 50px;
     border: double olivedrab;
     border-radius: 5px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .inTotalFinal {
