@@ -1,15 +1,20 @@
 console.log("Javascript carregado");
+function setUp(){
+        
+    function totalParcial (){
+        let a = document.getElementById("not1").value;  
+        let b = document.getElementById("not2").value;
+        let c = document.getElementById("not3").value;
+        let d = document.getElementById("not4").value;
+        var media = document.getElementById("peso").value; 
 
-function nota(){
-    var a = document.getElementById("not1").value;  
+        var calculo = a + b + c + d;
+        var total = calculo / media; 
+        return total 
+    }
+    document.getElementById("resuldadoNotas").value = totalParcial();
 }
 
-function totalParcial (a, b, c, d){
-    
-    var media = 4; 
-    var calculo = a + b + c + d;
-    return calculo/media;  
+window.onload = function (){
+    setUp();
 }
-    console.log(totalParcial());
-
-    document.getElementById("resuldadoNotas").value = totalParcial()
