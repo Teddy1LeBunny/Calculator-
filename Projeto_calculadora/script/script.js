@@ -23,7 +23,8 @@ function setUp(){
 
     document.getElementById("resuldadoNotas").value = totalParcial();
 }
+var button = document.getElementById("button1");
 
-window.onload = function (){
+button.onclick = function (){
     setUp();
 }
